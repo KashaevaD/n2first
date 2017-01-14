@@ -1,0 +1,17 @@
+table {
+    width: 50%;
+    margin: 0 auto;
+    /*padding: 30px;*/
+}
+
+#divTab {
+    position: absolute;
+    left: 12%;
+    padding: 30px;
+    width: 88%;
+}
+
+tbody tr td img {
+    width: 99px;
+    height: 100px;
+}
