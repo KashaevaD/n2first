@@ -11,27 +11,27 @@ public users = [
   {
     name: 'Dasha',
     surname: 'Kashaeva',
-    avatar: '/assets/img/dasha.jpg'
+    avatar: 'n2first/assets/img/dasha.jpg'
   },
   {
     name: 'Alex',
     surname: 'Popov',
-    avatar: '/assets/img/alex.jpg'
+    avatar: 'n2first/assets/img/alex.jpg'
   },
   {
     name: 'Igor',
     surname: 'Mitropan',
-    avatar: '/assets/img/igor.jpg'
+    avatar: 'n2first/assets/img/igor.jpg'
   },
   {
     name: 'Andrey',
     surname: 'Suprun',
-    avatar: '/assets/img/andrey.jpg'
+    avatar: 'n2first/assets/img/andrey.jpg'
   },
   {
     name: 'Evgen',
     surname: 'Krasnikov',
-    avatar: '/assets/img/evgen.jpg'
+    avatar: 'n2first/assets/img/evgen.jpg'
   }
 ];
   constructor() { }
