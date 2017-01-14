@@ -11,7 +11,7 @@ public users = [
   {
     name: 'Dasha',
     surname: 'Kashaeva',
-    avatar: './assets/img/dasha.jpg'
+    avatar: 'http://s012.radikal.ru/i319/1701/f1/bc7f22ff0076.jpg'
   },
   {
     name: 'Alex',
