@@ -11,27 +11,27 @@ public users = [
   {
     name: 'Dasha',
     surname: 'Kashaeva',
-    avatar: 'http://s012.radikal.ru/i319/1701/f1/bc7f22ff0076.jpg'
+    avatar: '../assets/img/dasha.jpg'
   },
   {
     name: 'Alex',
     surname: 'Popov',
-    avatar: './assets/img/alex.jpg'
+    avatar: '../assets/img/alex.jpg'
   },
   {
     name: 'Igor',
     surname: 'Mitropan',
-    avatar: './assets/img/igor.jpg'
+    avatar: '../assets/img/igor.jpg'
   },
   {
     name: 'Andrey',
     surname: 'Suprun',
-    avatar: './assets/img/andrey.jpg'
+    avatar: '../assets/img/andrey.jpg'
   },
   {
     name: 'Evgen',
     surname: 'Krasnikov',
-    avatar: './assets/img/evgen.jpg'
+    avatar: '../assets/img/evgen.jpg'
   }
 ];
   constructor() { }
