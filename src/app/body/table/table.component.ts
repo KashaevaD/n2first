@@ -8,6 +8,7 @@ import { Input, Component, OnInit } from '@angular/core';
 export class TableComponent implements OnInit {
 
  @Input() users;
+
   constructor() { }
 
   ngOnInit() {
