@@ -1,5 +1,5 @@
-<div id="sidebar-wrapper">
-    <ul class="nav nav-pills nav-stacked" *ngFor="let arr of array">
-        <li><a href="#">{{arr}}</a></li>
+<div class="col-md-3">
+    <ul class="nav nav-pills nav-stacked" *ngFor="let arr of menu; let i=index">
+        <li><a href="#" (click)="show(i)">{{arr}}</a></li>
     </ul>
 </div>

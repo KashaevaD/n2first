@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Input, Output, EventEmitter, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-sidemenu',
@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidemenu.component.css']
 })
 export class SidemenuComponent implements OnInit {
-array = ["First", "Second", "Third"];
+// array = ["First", "Second", "Third"];
+  whatShow:number = null;
+  @Input() menu;
+  @Output() numberPush: EventEmitter<number> = new EventEmitter();
+
+  show(i) {
+    this.whatShow = i;
+    this.numberPush.emit(this.whatShow);
+  }
+
   constructor() { }
 
   ngOnInit() {
   }
 
+ 
 }

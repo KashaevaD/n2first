@@ -3,3 +3,7 @@ body {
     padding: 20px;
     position: relative;
 }
+tbody tr td img {
+    width: 99px;
+    height: 100px;
+}
